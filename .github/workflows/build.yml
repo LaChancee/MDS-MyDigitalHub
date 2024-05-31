@@ -91,8 +91,8 @@ jobs:
             "DATABASE_USERNAME=strapi"
             "DATABASE_PASSWORD=strapi"
 
-  build-and-push-frontend:
-    name: Build and push frontend
+  build-publish-frontend:
+    name: 🛠️ Build and push frontend
     runs-on: ubuntu-latest
     # Sets the permissions granted to the `GITHUB_TOKEN` for the actions in this job.
     permissions:

@@ -45,6 +45,7 @@ services:
       - 8080:8080
     networks:
       - mydigitalhub-backend
+      - public-network  
 
   frontend:
     build: ./frontend
